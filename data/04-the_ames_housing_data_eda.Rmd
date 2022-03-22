@@ -13,6 +13,8 @@ library(leaflet)
 library(scales)
 library(patchwork)
 library(tidytext)
+
+library(forcats)
 theme_set(theme_light())
 
 data(ames, package = "modeldata")
